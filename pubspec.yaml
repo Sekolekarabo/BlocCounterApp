@@ -11,10 +11,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  animate_do: ^1.7.5
   bloc: ^6.1.1
   cupertino_icons: ^1.0.0
+  device_preview: ^0.6.2-beta
+  flare_flutter: ^2.0.6
   flutter_bloc: ^6.1.1
   hydrated_bloc: ^6.1.0
+  simple_animations: ^2.5.1
+  sizer: ^1.1.8
 
 dev_dependencies:
   flutter_test:
@@ -23,11 +28,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  
-
-
+  assets:
+    - assets/flare/
   # fonts:
   #   - family: Schyler
   #     fonts:
